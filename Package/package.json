@@ -1,0 +1,13 @@
+{
+    "author": "Ayoub Khammassi",
+    "dependencies": { "com.unity.cloud.gltfast": "6.2.0"},
+    "description": "Binary Opacity Grids import and rendering for Unity.",
+    "displayName": "Binary Opacity Grid",
+    "keywords": [ "unity" ],
+    "license": "MIT",
+    "name": "com.pixelwiz.binary-opacity-grid",
+    "repository": "github:AyoubKhammassi/UnityBinaryOpacityGrid",
+    "unity": "2023.2",
+    "unityRelease": "14f1",
+    "version": "0.1.0"
+  }

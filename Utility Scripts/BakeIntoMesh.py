@@ -4,12 +4,10 @@ from pathlib import Path
 import trimesh
 import numpy as np
 import json
-from numba import jit, prange, jit_module
+from numba import jit, prange
 import struct
 from ModifiedTrimeshFunctions import _append_multi_uv_mesh
 trimesh.exchange.gltf._append_mesh = _append_multi_uv_mesh
-
-jit_module(error_model="struct")
 
 def LoadSparseGrid(path, width, height, depth, featureIndex):
     grid = np.zeros((depth, height, width, 4))
